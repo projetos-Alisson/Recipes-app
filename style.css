@@ -99,3 +99,26 @@ h1{
     }
 
 }
+
+@media (max-width: 270px) {
+
+    .recipe-list{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .search-button {
+        width: 100%; /* Ou um tamanho específico menor */
+        font-size: 14px; /* Exemplo: diminuir o tamanho da fonte */
+        padding: 8px 16px; /* Exemplo: diminuir o padding */
+        
+    }
+
+     .search-input{
+        width: 67%;
+        padding: 20px;
+    }
+
+}
