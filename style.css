@@ -9,6 +9,7 @@ body{
 
 .container{
     max-width: 880px;
+    /* min-width: 392px; */
     margin: auto;
     background-color: #ffffff;
     padding: 20px;
@@ -24,6 +25,7 @@ h1{
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+   
 }
 
 /*Grow in the space */
@@ -83,4 +85,17 @@ h1{
     max-width: 300px;
     object-fit: cover;
     border: 5px;
+}
+
+
+@media(max-width: 390px){
+    .search-form{
+       
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+  
+     
+    }
+
 }
